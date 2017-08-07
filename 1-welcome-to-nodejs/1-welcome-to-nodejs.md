@@ -1,4 +1,11 @@
-# NodeJS web 应用实践 1 － 瞧，一个新的选择
+# NodeJS － 瞧，一个新的选择
+
+---
+Author: Hain Wang
+
+Date: 2013/10/2
+
+
 ## NodeJS 历史
 [NodeJS](http://en.wikipedia.org/wiki/Nodejs)的开端要追溯到 2009年 JSonf上Ryan的[演讲](https://www.youtube.com/watch?v=ztspvPYybIY)。
 
@@ -10,11 +17,11 @@
 
 #### Savings in I/O cost 
  Because of the architecture, Node.js provides high performance like Nginx server as shown below. (As a side note: Nginx uses evented, non-blocking architecture, where as Apache uses multi-threaded architecture. Nginx doesn’t use Node.js, this is just an architecture comparison).
-<img src="/Users/faramir/Documents/markdown/nodejs-io/1-welcome-to-nodejs/apach-vs-nginx.png" alt="Apache v.s. Nginx" height="500" width="700">  
+<img src="./apach-vs-nginx.png" alt="Apache v.s. Nginx" height="500" width="700">  
 
 #### Savings in Memory
 Again, because of the architecture, Node.js uses relatively very little memory much like Nginx server as shown below.
-<img src="/Users/faramir/Documents/markdown/nodejs-io/1-welcome-to-nodejs/apache-vs-nginx-mem.png" alt="Apache v.s. Nginx" height="500" width="700"> 
+<img src="./apache-vs-nginx-mem.png" alt="Apache v.s. Nginx" height="500" width="700"> 
 
 #### Principles
 * non-blocking I/O : file system,network,database
@@ -39,7 +46,7 @@ The cluster module allows you to easily create child processes that all share se
 
 * [Event Loop](http://www.tuicool.com/articles/RreQJn)
 
-<img src="/Users/faramir/Documents/markdown/nodejs-io/1-welcome-to-nodejs/NODEJS_EVENT_LOOP.png" alt="Apache v.s. Nginx" height="500" width="700"> 
+<img src="./NODEJS_EVENT_LOOP.png" alt="Apache v.s. Nginx" height="500" width="700"> 
 
 
 ## 成功案例
@@ -114,7 +121,7 @@ It is extremely configurable to support a wide variety of use cases. Most common
 
 ## Best Practice
 ### Promise
-<img src="/Users/faramir/Documents/markdown/nodejs-io/1-welcome-to-nodejs/async.png" alt="Apache v.s. Nginx" height="300" width="500"> 
+<img src="./async.png" alt="Apache v.s. Nginx" height="300" width="500"> 
 
 
 		doThisAsync()
